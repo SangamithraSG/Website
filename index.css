@@ -1,0 +1,59 @@
+@font-face {
+  font-family: 'maturamt';
+  src: url('../font/maturamt.TTF') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+.background{
+    position: fixed;
+    top: 0; left: 0; 
+    width: 100%; height: 100%;
+    object-fit: cover;
+    opacity: 0.5; /* added opacity */
+    z-index: -1;
+}
+body {
+  margin: 0;
+  font-family: 'maturamt';
+  background: url('background.jpg') no-repeat center center fixed; /* Set background image */
+
+}
+
+.f {
+  color: red;
+  cursor: pointer;
+  margin: 0;
+  text-align: center;
+  white-space: nowrap;
+  font-size: 85px;
+  transition: all 0.5s ease;
+}
+
+.menu {
+  font-family: 'Times New Roman', Times, serif;
+  display: flex;
+  justify-content: center; /* Center the menu items */
+  margin-top: 0px; /* Space between title and menu */
+
+}
+
+.menu a {
+  color: black;
+  font-size: 20px;
+  font-weight: 400;
+  padding: 16px; /* Adjust padding for better spacing */
+  transition: all .22s ease;
+  /* text-decoration: none; Remove underline from links */
+}
+
+.menu a:hover {
+  color:brown; /* Add underline on hover */
+}
+.contact{
+    position: absolute; /* Position in the top right corner */
+    top: 10px; /* Adjust as needed */
+    right: 10px; /* Adjust as needed */
+    text-align: right; /* Align text to the right */
+    color: white; /* Change text color if needed */
+    font-size: 14px; /* Adjust font size as needed */
+}
